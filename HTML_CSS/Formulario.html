@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+
+<style>
+    #semMargem{ /*Retira todas as margens do que for inserido*/
+        
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    #space0{ 
+        display: inline-block; /*Retira a quebra de linha do que for inserido*/
+    }
+
+    .checkbox-section{
+        display:flex;
+        flex-direction: column;align-items: flex-start
+    }
+
+</style>
+
+
+
+<body>
+
+<div>
+
+    <h3 id="semMargem">Nome:</h3>
+    
+    <label for="Informe o seu nome"></label>
+    <input type="text" name="nome" id="nome" placeholder="Informe o seu nome">
+
+</div>
+
+<div>
+
+    <p></p>
+
+    <h3 id="semMargem">Qual destas é uma linguagem de marcação?</h3>
+
+    <input type="radio" id="" name="opcao" value="opcao1"><label for="opcao1" class="radio"></label>HTML 
+
+    <p id="semMargem"></p>
+    
+    <input type="radio" id="opcao2" name="opcao" value="opcao1"><label for="opcao1" class="radio"></label>PHP
+
+    <p id="semMargem"></p>
+    
+    <input type="radio" id="" name="opcao" value="opcao1"><label for="opcao1" class="radio"></label>JavaScript
+
+</div>
+
+</div>
+
+    <p></p>
+    
+    <input  type="checkbox" name="" id="" ><label for="opcao" class="radio"></label>
+
+        <h3 id="space0"> Li e concordo com os termos</h3>
+        
+</div>
+        <p id="semMargem"></p>
+
+    <button type="submit">Submit</button>
+
+
+</body>
+
+</html>
